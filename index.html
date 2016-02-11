@@ -60,9 +60,11 @@ However, I do promise to read them all :)
 </td><td><span id="mymsg"></span>
 <script language="javascript" type="text/javascript">
 <!-- //
+var rnd = Math.floor((Math.random() * 14) + 1); //* NN is the number of array items. 
 var newslist=new Array();
-var ctr=0;var curr = "";
+var ctr=rnd;var curr = "";
 var i=-1;
+//alert(rnd);
 newslist[0]=new Array("Hope you enjoy my website!!","");
 newslist[1]=new Array("I was the best I.M. (International Manager)","");
 newslist[2]=new Array("Up my ass an' luvin it","");
@@ -71,33 +73,41 @@ newslist[4]=new Array("Is there anything you'd like to see on my website?","");
 newslist[5]=new Array("Email me, go on!!","");
 newslist[6]=new Array("IMUPMYASS: One of the best websites ever","");
 newslist[7]=new Array("Give me your money!","");
-newslist[8]=new Array("ALL OF IT!","");
+newslist[8]=new Array("Give me all your money. ALL OF IT!","");
 newslist[9]=new Array("Signed photos are available!","");
 newslist[10]=new Array("Over 1,000,000 signed photos shipped and counting!","");
 newslist[11]=new Array("I am a gift from God.","");
 newslist[12]=new Array("WORSHIP ME","");
-newslist[13]=new Array("Inspiration is perspiration. And vice versa.","");
+newslist[13]=new Array("Work Hard! But let others do the work!","");
+newslist[14]=new Array("My faithfull fans... Adore me.","");
+newslist[15]=new Array("Adore me.","");
+
 function mymessages(){
-if (i < newslist[ctr][0].length - 1){
-i++;
-temp1 = newslist[ctr][0];
-temp1 = temp1.split('');
-curr = curr+temp1[i];
-temp2 = newslist[ctr][1];
-if(document.getElementById){
-document.getElementById('mymsg').innerHTML = "" + curr + "_";}
-setTimeout("mymessages()",50);
-return;
+  if(!document.getElementById){
+    alert("Cool kid.");  
+    return;
+  }
+  if (i < newslist[ctr][0].length - 1){
+    i++;
+    temp1 = newslist[ctr][0];
+    temp1 = temp1.split('');
+    curr = curr+temp1[i];
+    temp2 = newslist[ctr][1];
+    document.getElementById('mymsg').innerHTML = "" + curr + "_";
+    setTimeout("mymessages()",50);
+    return;
+  }
+  i = -1;
+  curr = "";
+  if (ctr<newslist.length-1){
+    ctr++;
+  }else{
+    ctr=0;
+  }
+  setTimeout('mymessages()',2000);
 }
-i = -1;
-curr = "";
-if (ctr<newslist.length-1){
-ctr++;
-}else{
-ctr=0;
-}
-setTimeout('mymessages()',2000);
-}// --></script>
+// -->
+</script>
 <noscript>Astrid says: "Do not be afraid to love thyself"</noscript>
 </td></tr></table>
 <p>
