@@ -1,0 +1,4 @@
+[02-Oct-2009 20:12:22] PHP Warning:  PHP Startup: mm_create(0, /session_mm_cgi1385) failed, err mm:core: failed to open semaphore file (Permission denied) in Unknown on line 0
+[04-Oct-2009 11:25:20] PHP Warning:  PHP Startup: mm_create(0, /session_mm_cgi1385) failed, err mm:core: failed to open semaphore file (Permission denied) in Unknown on line 0
+[09-Oct-2009 19:36:33] PHP Warning:  PHP Startup: mm_create(0, /session_mm_cgi1385) failed, err mm:core: failed to open semaphore file (Permission denied) in Unknown on line 0
+[15-Oct-2009 15:38:20] PHP Warning:  PHP Startup: mm_create(0, /session_mm_cgi1385) failed, err mm:core: failed to open semaphore file (Permission denied) in Unknown on line 0
