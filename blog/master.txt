@@ -1,5 +1,16 @@
 line 1 here
 and again
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+A
 oopla
 his going to be deleted.
 another deletion
