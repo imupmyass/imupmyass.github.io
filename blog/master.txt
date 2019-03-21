@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-1
 and again
 oopla
-=======
-this is master.
-<<<<<<< HEAD
 his going to be deleted.
 another deletion
-=======
->>>>>>> parent of b3f9d32... remove this commit later
->>>>>>> parent of aa688ef... add 1 to master.txt
